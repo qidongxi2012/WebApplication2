@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication2</name>
+    </assembly>
+    <members>
+        <member name="T:WebApplication2.Controllers.QdxController">
+            <summary>
+            qdx congroller
+            </summary>
+        </member>
+        <member name="M:WebApplication2.Controllers.QdxController.get(System.String)">
+            <summary>
+            get fangfa
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.QdxController.post(System.String,WebApplication2.WeatherForecast)">
+            <summary>
+            post fangfa
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.QdxController.del(System.String)">
+            <summary>
+            delete fangfa
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication2.Controllers.QdxController.pu(System.String,WebApplication2.WeatherForecast)">
+            <summary>
+            updt fangfa
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WebApplication2.Controllers.WeatherForecastController">
+            <summary>
+            weth  contrller
+            </summary>
+        </member>
+        <member name="M:WebApplication2.Controllers.WeatherForecastController.#ctor(Microsoft.Extensions.Logging.ILogger{WebApplication2.Controllers.WeatherForecastController})">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:WebApplication2.Controllers.WeatherForecastController.Get(System.Int32)">
+             <summary>
+             获取token
+             </summary>
+             <returns>返回token</returns>
+            <remarks>描述</remarks>
+            <param name="id">主键</param>
+            <response code="201">入参为NULL</response >
+            <response code="301">异常</response >
+        </member>
+        <member name="M:WebApplication2.Controllers.WeatherForecastController.pp(System.String)">
+            <summary>
+            put 方法
+            </summary>
+            <param name="id">传入的ID 值</param>
+            <response code="505">我赢了</response>
+            <response code="502">我赢了1</response>
+            <response code="501">我赢了3</response>
+            <returns></returns>
+        </member>
+        <member name="T:WebApplication2.Controllers.WgyController">
+            <summary>
+            wgy  contrller
+            </summary>
+        </member>
+        <member name="M:WebApplication2.Controllers.WgyController.#ctor(Microsoft.Extensions.Logging.ILogger{WebApplication2.Controllers.WeatherForecastController})">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:WebApplication2.Controllers.WgyController.Get(System.Int32)">
+             <summary>
+             获取token
+             </summary>
+             <returns>返回token</returns>
+            <remarks>描述</remarks>
+            <param name="id">主键</param>
+            <response code="201">入参为NULL</response >
+            <response code="301">异常</response >
+        </member>
+        <member name="M:WebApplication2.Controllers.WgyController.pp(System.String)">
+            <summary>
+            put 方法
+            </summary>
+            <param name="id">传入的ID 值</param>
+            <response code="505">我赢了</response>
+            <response code="502">我赢了1</response>
+            <response code="501">我赢了3</response>
+            <returns></returns>
+        </member>
+        <member name="T:WebApplication2.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApplication2.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:WebApplication2.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WebApplication2.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApplication2.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:WebApplication2.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApplication2.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:WebApplication2.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
