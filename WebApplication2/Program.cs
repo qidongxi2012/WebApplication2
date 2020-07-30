@@ -23,6 +23,7 @@ namespace WebApplication2
             CreateHostBuilder(args).Build().Run();
             Console.Read();
             Console.ReadLine();
+            Console.ReadKey();
         }
 
         /// <summary>
