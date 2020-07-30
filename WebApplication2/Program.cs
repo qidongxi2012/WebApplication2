@@ -24,6 +24,8 @@ namespace WebApplication2
             Console.Read();
             Console.ReadLine();
             Console.ReadKey();
+
+            Console.WriteLine();
         }
 
         /// <summary>
