@@ -27,6 +27,7 @@ namespace WebApplication2
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            Configuration = configuration;
         }
 
         /// <summary>

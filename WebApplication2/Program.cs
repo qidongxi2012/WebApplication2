@@ -28,6 +28,7 @@ namespace WebApplication2
             Console.WriteLine();
             Console.Write("a");
             Console.Write("vsca");
+            Console.Write("vsca1");
 
         }
 
