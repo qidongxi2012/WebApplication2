@@ -26,7 +26,7 @@ namespace WebApplication2
             Console.ReadKey();
 
             Console.WriteLine();
-            Console.Write();
+            Console.Write("a");
         }
 
         /// <summary>
